@@ -14,7 +14,7 @@ const AboutMe = () => {
       <div className="w-full md:w-1/2 flex flex-col justify-center items-center text-center p-4 md:p-10">
         <h1 className="font-abc text-3xl md:text-6xl mb-4">
           <ReactTypingEffect
-            text={["Hi, I'm Joseph Camargo!"]}
+            text={["I'm Joseph Camargo!"]}
             speed={100}
             eraseSpeed={50}
             eraseDelay={2000}

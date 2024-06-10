@@ -8,7 +8,7 @@ const LetsConnect: React.FC = () => {
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div className="text-center lg:text-left mb-6 lg:mb-0">
           <h2 className="text-3xl lg:text-4xl font-abc font-bold leading-tight mb-4">Let's Work Together</h2>
-          <p className="text-lg">I'm excited about the possibility of collaborating with you on incredible projects.</p>
+          <p className="text-lg p-10">I'm excited about the possibility of collaborating with you on incredible projects.</p>
         </div>
         <div className="flex justify-center lg:justify-end">
           <motion.div

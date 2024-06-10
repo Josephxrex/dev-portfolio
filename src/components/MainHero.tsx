@@ -90,7 +90,6 @@ const MainHero = () => {
             {mainHero.title}
             <WordRotateDemo text={mainHero.rol}/>
             </span>
-            
         
             {/* Azure Circles */}
             <OrbitingCircles
