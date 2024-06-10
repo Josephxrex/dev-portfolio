@@ -1,0 +1,136 @@
+{
+    "company": {
+        "name": "Joseph Efrain Camargo ",
+        "logo": "/assets/images/logo.png"
+    },
+    "navigation": [
+        {
+            "name": "About Me",
+            "href": "about_me"
+        },
+        {
+            "name": "Education",
+            "href": "education"
+        },
+        {
+            "name": "Experience",
+            "href": "experience"
+        },
+        {
+            "name": "Projects",
+            "href": "projects"
+        }
+    ],
+    "callToAction": {
+        "text": "Get started",
+        "href": "#"
+    },
+    "mainHero": {
+        "title": "Joseph",
+        "rol": [
+            "BackEnd",
+            "FrontEnd",
+            "Scrum Master",
+            "Team Lead"
+        ],
+        "img": "/../assets/images/josepxrex.jpg",
+        "primaryAction": {
+            "text": "Get started",
+            "href": "#"
+        }
+    },
+    "textReveal": {
+        "userText": [
+            "“Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.” -Martin Golding",
+            "“To iterate is human, to recurse divine”. - L. Peter Deutsch",
+            "“If you can imagine it you can program it.” - Alejandro Taboada"
+        ]
+    },
+    "experience": {
+        "works": [
+            {
+                "year": "From Feb 2020 to Aug 2020",
+                "description": "Development assistant of the support and technological assistance department using HTML, CSS and Java Script in the Biblioteca Pública de San Miguel de Allende Gto.",
+                "position": "Professional Practices",
+                "address": "Insurgentes #25, San Miguel de Allende, Zona Centro, 37700",
+                "employer": "Biblioteca Publica SMA"
+            },
+            {
+                "year": "From Feb 2023 to Aug 2023",
+                "description": "DBA assistant and development of systems that help the construction make the processes simpler.",
+                "position": "DBA Assistant",
+                "address": "Gran Vivir, Carretera León-Lagos km 8.5 Col, 37669 Lagunillas, Gto.",
+                "employer": "Gran Vivir"
+            },
+            {
+                "year": "From Jun 2023 to Nov 2023",
+                "description": "Communication 4.0 project of the Volkswagen Challenge 2.0, leading the team from March to November 2023. My responsibility was to facilitate the development process and ensure the efficient implementation of the Scrum methodology. Under my direction, we achieved second place in the competition, and I also took on the role of backend-lead and database developer, demonstrating my ability to lead in multiple areas",
+                "position": "Backend Lead / Scrum Master",
+                "address": "",
+                "employer": "Volkswagen Group"
+            },
+            {
+                "year": "From Apr 2023",
+                "description": "5th place nationally in architecture development, application to read dicom files for the analysis of x-ray results for sending via WhatsApp, served as team lead and backend lead for the development of the solution",
+                "position": "Backend / Scrum Master",
+                "address": "Blvd. Campestre 906, Jardines del Moral, 37160 León de los Aldama",
+                "employer": "Salud Digna Hackthon"
+            },
+            {
+                "year": "From Jul 2023 to Present",
+                "description": "Development of serverless applications through the entire AWS ecosystem focused on data consistency, endpoint creation, front-end integration, application performance monitoring and doing a bit of DevOps",
+                "position": "Part-Time Backend",
+                "address": "Blvd. Campestre 906, Jardines del Moral, 37160 León de los Aldama",
+                "employer": "CBQA-Solutions"
+            }
+        ]
+    },
+    "education": {
+        "school": [
+            {
+                "institutionName": "CBTis No.60",
+                "address": "Av. Educación Tecnológica No.4 Lomas, Fray Juan de San Miguel, 37713, San Miguel de Allende, GTO.",
+                "bachelorDegree": "Technical Career in Programming"
+            },
+            {
+                "institutionName": "Universidad La Salle Bajío Campus Campestre",
+                "address": "Avenida Universidad 602, Lomas del Campestre, 37150 León, Gto.",
+                "bachelorDegree": "Software and Computing Systems Enginnering"
+            },
+            {
+                "institutionName": "Academia Europea",
+                "address": "Av Paseo del Moral 1030-Locales 14D Y C, Villa del Juncal, 37160 León, Gto.",
+                "bachelorDegree": "C1"
+            }
+        ]
+    },
+    "about": {
+        "sections": [
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            },
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            },
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            },
+            {
+                "name": "Something",
+                "href": "#",
+                "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            }
+        ],
+        "socialMedia": {
+            "github": "https://github.com/josephxrex",
+            "twitter": "https://twitter.com/efrain_camargo",
+            "linkedin": "https://www.linkedin.com/in/joseph/"
+        }
+    }
+}

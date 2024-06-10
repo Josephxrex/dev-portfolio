@@ -1,25 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MainHero from './components/MainHero';
+import TextRevealDemo from './components/TextRevealDemo';
+import Timeline, { TimelineItem } from './components/TimeLine';
+import config from './config/index.json';
+import MainSkills from './components/MainSkills';
+import AboutMe from './components/AboutMe';
+import LetsConnect from './components/LetsConnect';
+import SchoolTimeLine from './components/SchoolTimeLine';
 
 function App() {
+  const { textReveal, experience } = config;
+  
+  const items: TimelineItem[] = experience.works;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* Home */}
+      <MainHero />
+       {/*AboutMe */}
+      <AboutMe/>
+       {/*AboutMe */}
+      <SchoolTimeLine/>
+      {/*MainSkills */} 
+      <MainSkills/>
+       {/*Timeline */}
+      <Timeline items={items} />
+      {/* TextReveal */}
+      <TextRevealDemo text={textReveal.userText[2]} />
+       {/*LetsConnect */}
+      <LetsConnect/>
+    </>
   );
 }
 
